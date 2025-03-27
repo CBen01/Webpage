@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e52a08-d925-4b77-95b2-21a105906bc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/local.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Game/ETHH.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ETHH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/HOLAKULCS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SZELESSZELEM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ajtoKESZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gaming.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/inventory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/keszajto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/komolysag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/story.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/szelemKESZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tutorial.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/hatteranyag.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/supabaseClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="creator" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2syeuSrDfUJ5fSaSaVXPmxrco4l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/v/Desktop/nextjssupabase/src/styles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v\Desktop\nextjssupabase\src\styles" />
+      <recent name="C:\Users\v\Desktop\nextjssupabase\public\images" />
+      <recent name="C:\Users\v\Desktop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\v\Desktop\nextjssupabase\public\Game" />
+      <recent name="C:\Users\v\Desktop\nextjssupabase\public\images" />
+      <recent name="C:\Users\v\Desktop\nextjssupabase\public\video" />
+      <recent name="C:\Users\v\Desktop\nextjssupabase\public\headline_video" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e52a08-d925-4b77-95b2-21a105906bc2" name="Changes" comment="" />
+      <created>1739432465505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739432465505</updated>
+      <workItem from="1739432467528" duration="1182000" />
+      <workItem from="1739433805468" duration="2952000" />
+      <workItem from="1739436889897" duration="1457000" />
+      <workItem from="1739438954066" duration="209000" />
+      <workItem from="1739439255729" duration="1845000" />
+      <workItem from="1739450812669" duration="193000" />
+      <workItem from="1739520784816" duration="208000" />
+      <workItem from="1739521016706" duration="288000" />
+      <workItem from="1739866463303" duration="2159000" />
+      <workItem from="1739869882303" duration="107000" />
+      <workItem from="1739870035225" duration="70000" />
+      <workItem from="1739870435083" duration="622000" />
+      <workItem from="1739871214436" duration="508000" />
+      <workItem from="1739872161404" duration="601000" />
+      <workItem from="1739873030612" duration="1556000" />
+      <workItem from="1739880362799" duration="1132000" />
+      <workItem from="1739950770299" duration="469000" />
+      <workItem from="1739951253452" duration="164000" />
+      <workItem from="1739953997882" duration="712000" />
+      <workItem from="1739955020211" duration="5963000" />
+      <workItem from="1740039445804" duration="139000" />
+      <workItem from="1740039695187" duration="834000" />
+      <workItem from="1740046378151" duration="2045000" />
+      <workItem from="1740048669396" duration="37000" />
+      <workItem from="1740048738925" duration="1951000" />
+      <workItem from="1740054567912" duration="380000" />
+      <workItem from="1740123588750" duration="52000" />
+      <workItem from="1740123683420" duration="1157000" />
+      <workItem from="1740125105855" duration="1859000" />
+      <workItem from="1740127542211" duration="23000" />
+      <workItem from="1740127589402" duration="711000" />
+      <workItem from="1740476394566" duration="15000" />
+      <workItem from="1740556979787" duration="762000" />
+      <workItem from="1740558782968" duration="330000" />
+      <workItem from="1740559289733" duration="773000" />
+      <workItem from="1740560317169" duration="618000" />
+      <workItem from="1740561135452" duration="5015000" />
+      <workItem from="1740571200271" duration="1933000" />
+      <workItem from="1740642110948" duration="3253000" />
+      <workItem from="1740645729193" duration="5845000" />
+      <workItem from="1740728285532" duration="2787000" />
+      <workItem from="1741074376042" duration="1469000" />
+      <workItem from="1741076058211" duration="437000" />
+      <workItem from="1741079777037" duration="1933000" />
+      <workItem from="1741082281517" duration="42000" />
+      <workItem from="1741164674184" duration="405000" />
+      <workItem from="1741165248956" duration="1187000" />
+      <workItem from="1741255813011" duration="1032000" />
+      <workItem from="1741257576756" duration="61000" />
+      <workItem from="1741691392426" duration="2618000" />
+      <workItem from="1741696717618" duration="1379000" />
+      <workItem from="1741766879575" duration="954000" />
+      <workItem from="1741853572984" duration="1597000" />
+      <workItem from="1741855740307" duration="3936000" />
+      <workItem from="1741860245434" duration="1164000" />
+      <workItem from="1741862866370" duration="747000" />
+      <workItem from="1741863656675" duration="2100000" />
+      <workItem from="1741869957803" duration="611000" />
+      <workItem from="1741938419025" duration="1159000" />
+      <workItem from="1741939987958" duration="2718000" />
+      <workItem from="1741944978246" duration="3009000" />
+      <workItem from="1741948210833" duration="791000" />
+      <workItem from="1742283644828" duration="776000" />
+      <workItem from="1742284434984" duration="2652000" />
+      <workItem from="1742287323084" duration="43000" />
+      <workItem from="1742287447484" duration="647000" />
+      <workItem from="1742289802394" duration="607000" />
+      <workItem from="1742290829981" duration="1126000" />
+      <workItem from="1742370154858" duration="316000" />
+      <workItem from="1742370941400" duration="820000" />
+      <workItem from="1742371870250" duration="2431000" />
+      <workItem from="1742374558176" duration="2468000" />
+      <workItem from="1742377352945" duration="622000" />
+      <workItem from="1742384122110" duration="292000" />
+      <workItem from="1742457372031" duration="1294000" />
+      <workItem from="1742468021142" duration="357000" />
+      <workItem from="1742542652451" duration="771000" />
+      <workItem from="1742543674018" duration="887000" />
+      <workItem from="1742546996289" duration="1127000" />
+      <workItem from="1742888529423" duration="501000" />
+      <workItem from="1742890156933" duration="794000" />
+      <workItem from="1742976852124" duration="3634000" />
+      <workItem from="1742980760849" duration="326000" />
+      <workItem from="1742981118079" duration="6000" />
+      <workItem from="1743072309388" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

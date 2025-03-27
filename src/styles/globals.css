@@ -3,25 +3,20 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #000000 !important;
+  background: #ffffff !important;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth !important;
 }
 
 * {
@@ -35,8 +30,582 @@ a {
   text-decoration: none;
 }
 
+.headll{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255,0,0,1) 100%);;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+
+.carouselImage {
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#gomb{
+  background: #d30505;
+  color: #ffffff;
+  font-weight: 600 !important;
+  transition: ease 0.3s;
+}
+
+#gomb:hover{
+  background: #f80000;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.menupont {
+  color: #000000 !important;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 10px;
+  transition: font-size 0.5s ease !important; /* Add transition for smooth growth */
+}
+
+.menupont:hover {
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+
+.login-button {
+  background: #333333;
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 20px !important; /* Adjust the size as needed */
+  padding: 10px 20px !important; /* Adjust the padding as needed */
+  text-decoration: none;
+  transition: ease 0.3s !important;
+}
+
+
+.login-button:hover {
+  background: #5c5c5c;
+  text-decoration: none !important; /* Ensure no underline on hover */
+  transform: scale(1.1);
+}
+
+.download-button {
+  background: #d30505 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  transition: ease 0.3s;
+  transform: scale(1.1);
+}
+
+.download-button:hover {
+  background: #f80000 !important;
+  text-decoration: none !important;
+  transform: scale(1.2);
+}
+
+#feedbackContainer::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+}
+
+#feedbackContainer::-webkit-scrollbar-track {
+  background: black;
+}
+
+#feedbackContainer::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logout {
+  background: #333333 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 20px !important; /* Adjust the size as needed */
+  padding: 10px 20px !important; /* Adjust the padding as needed */
+  text-decoration: none;
+  transition: ease 0.3s !important;
+}
+
+
+.logout:hover {
+  background: #5c5c5c !important;
+  text-decoration: none !important; /* Ensure no underline on hover */
+  transform: scale(1.1);
+}
+
+.TH{
+  color: #000000;
+  font-size: 20px;
+}
+
+.custom-carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-carousel .thumb {
+  width: 80px; /* Set the desired width */
+  height: 80px; /* Set the desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.custom-carousel .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.custom-carousel .thumb.selected,
+.custom-carousel .thumb:hover {
+  border-radius: 10px;
+}
+
+.carouselImage {
+  border-radius: 10px;
+}
+
+#test {
+  color: #000000;
+  border-radius: 10px;
+  max-height: 300px;
+  width: 70%;
+  padding: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 250px;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+
+#test2 {
+  color: #000000;
+  border-radius: 10px;
+  max-height: 300px;
+  width: 70%;
+  padding: 20px;
+  text-align: right;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 250px;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+
+.fej{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.szoveg{
+  text-align: center;
+  font-weight: bold;
+  overflow-y: auto;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.card {
+  transition: transform 0.9s ease, box-shadow 0.35s ease !important;
+  box-shadow: #434343 6px 6px 30px;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 400px;
+  background-color: snow;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  box-shadow: #191919 2px 2px 40px;
+  animation: shake 0.75s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+  10% { transform: translate(-0.5px, -1px) rotate(-0.5deg); }
+  20% { transform: translate(-1.5px, 0px) rotate(0.5deg); }
+  30% { transform: translate(1.5px, 1px) rotate(0deg); }
+  40% { transform: translate(0.5px, -0.5px) rotate(0.5deg); }
+  50% { transform: translate(-0.5px, 1px) rotate(-0.5deg); }
+  60% { transform: translate(-1.5px, 0.5px) rotate(0deg); }
+  70% { transform: translate(1.5px, 0.5px) rotate(-0.5deg); }
+  80% { transform: translate(-0.5px, -0.5px) rotate(0.5deg); }
+  90% { transform: translate(0.5px, 1px) rotate(0deg); }
+  100% { transform: translate(0.5px, -1px) rotate(-0.5deg); }
+}
+
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px !important;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+
+.headline {
+  font-size: 50px !important;
+  font-weight: bold;
+  transition: font-size 0.6s ease;
+  text-align: center;
+  color: white;
+}
+
+#head_sz {
+  color: white;
+  font-size: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+  .headline {
+    font-size: 40px !important;
+  }
+
+  #head_sz {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .headline {
+    font-size: 35px !important;
+  }
+
+  #head_sz {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 30px !important;
+  }
+
+  #head_sz {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline {
+    font-size: 25px !important;
+  }
+
+  #head_sz {
+    font-size: 12px;
+  }
+}
+
+.blurry-background {
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  height: 60%;
+  transition: 0.6s ease;
+  box-shadow: #000000 5px 5px 40px;
+}
+
+.blurry-background:hover{
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.carousel .control-arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 50px;
+  border-radius: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #C60C30;
+  color: rgb(237, 242, 247);
+ /*text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000; /* Thinner text outline */
+}
+
+tbody tr:nth-child(odd) {
+  color: #C60C30;
+  font-weight: 900;
+}
+
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes modalClose {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+.custom-close-button {
+    background-color: #d30505; /* Custom background color */
+    color: white; /* Custom text color */
+    border-radius: 50%; /* Make it circular */
+    width: 30px; /* Custom width */
+    height: 30px; /* Custom height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.custom-close-button:hover {
+    background-color: #f80000; /* Change background color on hover */
+}
+
+.modal {
+    transition: transform 0.9s ease, box-shadow 0.35s ease !important;
+    box-shadow: #434343 6px 6px 30px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 400px;
+    background-color: snow;
+    color: black;
+}
+
+.modal:hover {
+    transform: scale(1.06);
+    box-shadow: #191919 2px 2px 40px;
+}
+
+table {
+  width: 700px !important;
+}
+
+
+@media (max-width: 1200px) {
+  table {
+    width: 500px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  table {
+    max-width: 400px !important;
+  }
+  tr {
+    font-size: 95% !important
+  }
+
+  th{
+    font-size: 10px !important;
+    color: #ea1313 !important;
+    filter: drop-shadow(0px 0px 20px #b80b0b);
+    text-shadow: -0.5px -0.5px 0 , 0.5px -0.5px 0 #b80b0b, -0.5px 0.5px 0 #b80b0b, 0.5px 0.5px 0 #b80b0b !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  table {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  table {
+    width: 200px !important;
+  }
+}
+
+@media (min-width: 993px) {
+  th{
+    font-size: 25px !important;
+    color: #ea1313 !important;
+    filter: drop-shadow(0px 0px 20px #b80b0b);
+    text-shadow: -0.5px -0.5px 0 , 0.5px -0.5px 0 #b80b0b, -0.5px 0.5px 0 #b80b0b, 0.5px 0.5px 0 #b80b0b !important;
+  }
+}
+
+
+tr {
+  height: 80px;
+  font-size: 21px;
+  font-weight: 800;
+
+}
+
+.jef{
+  font-size: 50px !important;
+}
+
+#userFeedback {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#submitFeedback {
+  padding: 10px 20px;
+  background-color: #d30505 !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+#submitFeedback:hover {
+  background-color: #f80000 !important;
+  scale: 1.2;
+}
+
+#userFeedback::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+}
+
+#userFeedback::-webkit-scrollbar-track {
+  background: black;
+}
+
+#userFeedback::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="color"] {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+button.clear {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#userFeedback {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+#submitFeedback {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add this CSS to your global styles or a specific CSS file */
+.text-formatting-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.text-formatting-buttons button,
+.text-formatting-buttons input[type="color"],
+.text-formatting-buttons select {
+  padding: 8px 12px;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.text-formatting-buttons button:hover,
+.text-formatting-buttons input[type="color"]:hover,
+.text-formatting-buttons select:hover {
+  background-color: #e0e0e0;
+}
+
+.text-formatting-buttons button:active,
+.text-formatting-buttons input[type="color"]:active,
+.text-formatting-buttons select:active {
+  background-color: #d0d0d0;
+}
+
+.text-formatting-buttons select {
+  padding: 8px;
+}
+
