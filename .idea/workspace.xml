@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92e52a08-d925-4b77-95b2-21a105906bc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/local.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Game/ETHH.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ETHH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/HOLAKULCS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/SZELESSZELEM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ajtoKESZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gaming.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/inventory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/keszajto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/komolysag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/story.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/szelemKESZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tutorial.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/hatteranyag.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/supabaseClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/v/Desktop/nextjssupabase/src/styles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/v/Desktop/Webpage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\v\Desktop\nextjssupabase\src\styles" />
@@ -204,6 +177,7 @@
       <workItem from="1742980760849" duration="326000" />
       <workItem from="1742981118079" duration="6000" />
       <workItem from="1743072309388" duration="187000" />
+      <workItem from="1743155481250" duration="134000" />
     </task>
     <servers />
   </component>
